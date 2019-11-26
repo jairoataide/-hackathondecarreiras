@@ -1,9 +1,9 @@
 
-###<div style="text-align: justify"> Este trabalho refere-se ao processo de seleção, segunda fase, para participação no Hackathon de Carreiras TI 2019 em atendimento ao quesito "Desafio Técnico". </div>
-###Participante: Jairo Ataide (jairo@ataide.net)
+### <div style="text-align: justify"> Este trabalho refere-se ao processo de seleção, segunda fase, para participação no Hackathon de Carreiras TI 2019 em atendimento ao quesito "Desafio Técnico". </div>
+### Participante: Jairo Ataide (jairo@ataide.net)
 
 
-#Desafio proposto
+# Desafio proposto
 >**Desafio**
 >
 >Propor um processo de governança de ti
@@ -23,7 +23,7 @@
 >3. Para cada processo, atividade ou métrica, apresente uma justificativa baseada nos guias explorados.
 >4. Demonstre os efeitos que seu projeto pode gerar para a XY e seus gestores.
 >5. Todos os artefatos desenvolvidos devem disponibilizadaos para análise técnica.
-#Contexto
+# Contexto
 Toda e qualquer mudança em uma organização exige dos tomadores de decisão avaliar os impactos que podem ocorrer durante esse processo. Além da desconfiança, há os riscos inerentes que necessitam ser identificados e avaliados para que seja decidido qual melhor caminho seguir.
 
 A migração de infraestruturas de TI *on-premise* para a nuvem levanta, por sua complexidade, uma série de incertezas em relação aos benefícios, riscos, desafios, segurança da informação e custos o que leva ao receio e hesitação por parte dos gestores corporativos.
@@ -43,14 +43,14 @@ Desta forma fornecer ao gestores da empresa XY, para que qualquer que seja a dec
 
 ***
 
-#Fluxo de processo de avaliação de riscos
-##Processo de gestão de riscos
+# Fluxo de processo de avaliação de riscos
+## Processo de gestão de riscos
 A norma NBR ISO/IEC 31000 define o processo de gestão de riscos como uma "aplicação sistemática de políticas, procedimentos e práticas de gestão para as atividades de comunicação, consulta, estabelecimento do contexto, e na identificação, análise, avaliação, tratamento, monitoramento e análise crítica dos riscos”. O principal objetivo é obter benefícios e valores sustentáveis para o negócio em cada uma de suas atividades. Uma estrutura de gerenciamento de risco deve fornecer uma diretriz abrangente para avaliar e gerenciar os riscos identificados.
 ![Imgur](https://i.imgur.com/ddqv3IG.png)
-##Fluxograma de atividades do processo
+## Fluxograma de atividades do processo
 A ferramenta segue o processo de avaliação de riscos da norma NBR ISO 31000, porém, é fundamental que seja realizada uma análise de contexto, conforme preconiza a norma, para que o processo aplicado na ferramenta seja o mais próximo da realidade organizacional. O fluxo abaixo apresenta o passo a passo das atividades de cada etapa a ser executada na ferramenta.
 ![](https://i.imgur.com/8Oxa18S.jpg)
-###Critérios considerados no processo de tomada de decisão para migração em nuvem
+### Critérios considerados no processo de tomada de decisão para migração em nuvem
 Na definição dos indicares e métricas a serem consideradas, quando aplicáveis, aos critérios presentes na tabela abaixo devem ser abordados os processos que o *framework* ITIL® de melhores práticas de *Information Technology Service*:
 <br>- ***Incident Management***: O propósito deste processo é o de restaurar o normalidade funcionamento dos serviços no mais curto espaço de tempo possível.
 - ***Problem Management***: Neste processo a atenção centrasse em minimizar o impacto de incidentes que não podem ser prevenidos e prevenir a recorrência dos incidentes.
@@ -85,15 +85,15 @@ Na definição dos indicares e métricas a serem consideradas, quando aplicávei
 |                         	| Gestão de maturidade                	|****
 
 <br/>
-###Matriz de probabilidade X Impacto
+### Matriz de probabilidade X Impacto
 A matriz de probabilidade e Impacto combina abordagens qualitativas ou semiquantitativas de consequências (impactos) e probabilidades, a fim de produzir um nível de risco
 ou classificação de risco [14, 15].
 Conforme é demonstrado na tabela 2.1, a matriz de probabilidade e impacto é fortemente aplicada na identificação e anális
 
-####Definição da escala de Impacto
+#### Definição da escala de Impacto
 O impacto deve considerar os potenciais prejuízos causados, caso o incidente se concretize. Quanto maior a relevância do ativo, maior será a severidade de um incidente. A definição da escala de impacto deve ser elaborada a partir dos objetivos estratégicos alinhada a escala de impacto.
 ![](https://i.imgur.com/i2HnPoB.png)
-####Definição da escala de Probabilidade
+#### Definição da escala de Probabilidade
 A probabilidade representa a possibilidade de que um determinado evento ocorrerá, ou a como a chance de uma ameaça se concretizar.
 
 | Valor 	| Probabilidade 	| Descrição                              	|
@@ -104,17 +104,17 @@ A probabilidade representa a possibilidade de que um determinado evento ocorrer�
 | 4     	| Alta          	| Provável de ocorrer (71 a 90%)         	|
 | 5     	| Quase certa    	| Ocorre frequentemente (91 a 100%)      	|
 
-####Cálculo da matriz
+#### Cálculo da matriz
 Os quadrantes da matriz de riscos são resultantes do cálculo impacto x probabilidade.
 <br/>Os eventos de riscos situados nos quadrantes definidos como risco alto e risco muito alto são indicativos de necessidade de controles mais rígidos, enquanto os riscos situados nos quadrantes de risco pequeno e moderado seriam um indicativo de controles mais moderados. Em alguns casos não há necessidade de implementar controles e/ou até retirar controles.
 ![](https://i.imgur.com/qVgQqCT.png)
-####Nível de risco
+#### Nível de risco
 O nível de risco expressa a magnitude de um determinado evento de risco, em termos da combinação de seu impacto e probabilidade de ocorrência.
 <br/>- Nível de Risco Inerente (NRI): É o nível de risco antes da consideração das respostas para reduzir a probabilidade do evento ou os seus impactos nos objetivos, incluindo controles internos.
 - Nível de Risco Residual (NRR): É o risco que ainda permanece depois de considerado o efeito das respostas adotadas pela gestão para reduzir a probabilidade e o impacto dos riscos, incluindo controles internos e outras ações.
 <br/>Os níveis de riscos obtidos com aplicação desta matriz orientarão os gestores na adoção de ações para responder os eventos de riscos identificados.
 ![](https://i.imgur.com/EF1gKgn.png)
-###Resposta ao risco
+### Resposta ao risco
 Após a etapa de avaliação de riscos, em que o risco é mensurado, o gestor deverá responder aos riscos. Esta fase é responsável por implementar ações orientadas pelo resultado da avaliação dos riscos.
 <br/>Formas de resposta a riscos podem variar entre aceitar, reduzir, evitar ou compartilhar o risco, incluindo o estabelecimento de atividades de controle para assegurar que as respostas definidas sejam efetivamente aplicadas. É fundamental que o gestor considere o "apetite ao risco" quando propor as ações de controle em resposta aos riscos.
 
@@ -126,7 +126,7 @@ Após a etapa de avaliação de riscos, em que o risco é mensurado, o gestor de
 | RB             	| Assume as responsabilidade caso ocorra o risco<br>identificado.                                                                          	| Aceitar          	|
 | RMB            	| Assume as responsabilidade caso ocorra o risco<br>identificado.                                                                          	| Aceitar          	|
 
-#Metodologia de aplicação
+# Metodologia de aplicação
 Para aplicar a ferramenta proposta, indica-se o *framework* SCRUM Agile.
 ![Imgur](https://i.imgur.com/x6cYI99.jpg)
 
@@ -135,7 +135,7 @@ No caso o backlog de produto será composto pelos itens correspondentes da tebel
 
 ***
 
-#Referencias
+# Referencias
 
 ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. **NBR ISO 31000: Gestão de riscos - Diretrizes**. Rio de Janeiro: ABNT, 2018. 17 p.
 
