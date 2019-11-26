@@ -86,7 +86,6 @@ Ainda relativo a questão financeira deve-se abordar método para cálculo de "A
 |                         	| Gestão de mudanças                  	|
 |                         	| Gestão de maturidade                	|****
 
-<br/>
 ### Matriz de probabilidade X Impacto
 A matriz de probabilidade e Impacto combina abordagens qualitativas ou semiquantitativas de consequências (impactos) e probabilidades, a fim de produzir um nível de risco ou classificação de risco.
 
