@@ -52,12 +52,14 @@ A ferramenta segue o processo de avaliação de riscos da norma NBR ISO 31000, p
 ![](https://i.imgur.com/8Oxa18S.jpg)
 ### Critérios considerados no processo de tomada de decisão para migração em nuvem
 Na definição dos indicares e métricas a serem consideradas, quando aplicáveis, aos critérios presentes na tabela abaixo devem ser abordados os processos que o *framework* ITIL® de melhores práticas de *Information Technology Service*:
-<br>- ***Incident Management***: O propósito deste processo é o de restaurar o normalidade funcionamento dos serviços no mais curto espaço de tempo possível.
+- ***Incident Management***: O propósito deste processo é o de restaurar o normalidade funcionamento dos serviços no mais curto espaço de tempo possível.
 - ***Problem Management***: Neste processo a atenção centrasse em minimizar o impacto de incidentes que não podem ser prevenidos e prevenir a recorrência dos incidentes.
 - ***Change Management***: Este processo tem a missão de gerir o ciclo de vida das alterações de uma maneira controlada, nomeadamente o registo, avaliação, autorização, priorização, planeamento, teste, implementação, documentação e revisão das mesmas.
 - ***Release & Deployment Management***: Este processo tem como objetivo principal gerir todos os aspectos relacionados com a entrada em produção das várias *releases* dos serviços prestados pela organização, assim como o estabelecimento de um uso eficaz dos mesmos, cobrindo assim todas as fases de montagem e implementação do novo serviço, ou de um serviço alterado, desde o planeamento da *release* até ao suporte inicial no ambiente de produção.
-<br>Outro aspécto a se abordar especificamente ao critério financeiro é adoção, **para ambas as opções**,  é análise de CAPEX e OPEX por meio do **TCO** (*Total Cost of Ownership*) ou custo total da posse, qué uma estimativa financeira projetada para avaliar os custos diretos e indiretos relacionados à compra de todo o investimento necessário além do gasto inerente de tais opções para mantê-las em funcionamento.
-<br>Ainda relativo a questão financeira deve-se abordar método para cálculo de "Análise de Viabilidade Econômica Financeira" utilizando os parâmetros de VPL, TIRm, Payback descontado e ROI.
+
+Outro aspécto a se abordar especificamente ao critério financeiro é adoção, **para ambas as opções**,  é análise de CAPEX e OPEX por meio do **TCO** (*Total Cost of Ownership*) ou custo total da posse, qué uma estimativa financeira projetada para avaliar os custos diretos e indiretos relacionados à compra de todo o investimento necessário além do gasto inerente de tais opções para mantê-las em funcionamento.
+
+Ainda relativo a questão financeira deve-se abordar método para cálculo de "Análise de Viabilidade Econômica Financeira" utilizando os parâmetros de VPL, TIRm, Payback descontado e ROI.
 
 |Critério        	|Subcritério             	|
 |:-----------------------:	|:-----------------------------------:	|
@@ -86,9 +88,7 @@ Na definição dos indicares e métricas a serem consideradas, quando aplicávei
 
 <br/>
 ### Matriz de probabilidade X Impacto
-A matriz de probabilidade e Impacto combina abordagens qualitativas ou semiquantitativas de consequências (impactos) e probabilidades, a fim de produzir um nível de risco
-ou classificação de risco [14, 15].
-Conforme é demonstrado na tabela 2.1, a matriz de probabilidade e impacto é fortemente aplicada na identificação e anális
+A matriz de probabilidade e Impacto combina abordagens qualitativas ou semiquantitativas de consequências (impactos) e probabilidades, a fim de produzir um nível de risco ou classificação de risco.
 
 #### Definição da escala de Impacto
 O impacto deve considerar os potenciais prejuízos causados, caso o incidente se concretize. Quanto maior a relevância do ativo, maior será a severidade de um incidente. A definição da escala de impacto deve ser elaborada a partir dos objetivos estratégicos alinhada a escala de impacto.
@@ -106,16 +106,20 @@ A probabilidade representa a possibilidade de que um determinado evento ocorrer�
 
 #### Cálculo da matriz
 Os quadrantes da matriz de riscos são resultantes do cálculo impacto x probabilidade.
+
 <br/>Os eventos de riscos situados nos quadrantes definidos como risco alto e risco muito alto são indicativos de necessidade de controles mais rígidos, enquanto os riscos situados nos quadrantes de risco pequeno e moderado seriam um indicativo de controles mais moderados. Em alguns casos não há necessidade de implementar controles e/ou até retirar controles.
 ![](https://i.imgur.com/qVgQqCT.png)
 #### Nível de risco
 O nível de risco expressa a magnitude de um determinado evento de risco, em termos da combinação de seu impacto e probabilidade de ocorrência.
-<br/>- Nível de Risco Inerente (NRI): É o nível de risco antes da consideração das respostas para reduzir a probabilidade do evento ou os seus impactos nos objetivos, incluindo controles internos.
+
+- Nível de Risco Inerente (NRI): É o nível de risco antes da consideração das respostas para reduzir a probabilidade do evento ou os seus impactos nos objetivos, incluindo controles internos.
 - Nível de Risco Residual (NRR): É o risco que ainda permanece depois de considerado o efeito das respostas adotadas pela gestão para reduzir a probabilidade e o impacto dos riscos, incluindo controles internos e outras ações.
-<br/>Os níveis de riscos obtidos com aplicação desta matriz orientarão os gestores na adoção de ações para responder os eventos de riscos identificados.
+
+Os níveis de riscos obtidos com aplicação desta matriz orientarão os gestores na adoção de ações para responder os eventos de riscos identificados.
 ![](https://i.imgur.com/EF1gKgn.png)
 ### Resposta ao risco
 Após a etapa de avaliação de riscos, em que o risco é mensurado, o gestor deverá responder aos riscos. Esta fase é responsável por implementar ações orientadas pelo resultado da avaliação dos riscos.
+
 <br/>Formas de resposta a riscos podem variar entre aceitar, reduzir, evitar ou compartilhar o risco, incluindo o estabelecimento de atividades de controle para assegurar que as respostas definidas sejam efetivamente aplicadas. É fundamental que o gestor considere o "apetite ao risco" quando propor as ações de controle em resposta aos riscos.
 
 | Nível de Risco 	|                                              Parâmetro de análise<br>para adoção da resposta                                             	| Tipo de resposta 	|
