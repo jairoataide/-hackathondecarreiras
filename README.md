@@ -1,6 +1,6 @@
-###<div style="text-align: justify"> Este trabalho refere-se ao processo de seleção, segunda fase, para participação no Hackathon de Carreiras TI 2019 em atendimento ao quesito "Desafio Técnico". </div>
 
-###*Participante: Jairo Ataide (jairo@ataide.net)*
+###<div style="text-align: justify"> Este trabalho refere-se ao processo de seleção, segunda fase, para participação no Hackathon de Carreiras TI 2019 em atendimento ao quesito "Desafio Técnico". </div>
+###Participante: Jairo Ataide (jairo@ataide.net)
 
 
 #Desafio proposto
